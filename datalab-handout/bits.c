@@ -145,6 +145,7 @@ NOTES:
 int bitXor(int x, int y) {
   //return ~(x & y) & (~(~x & ~y));
   return ~(~(x & ~y) & ~(~x & y));
+  //De Morgan's laws
   //return 2;
 }
 /* 
